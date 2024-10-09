@@ -35,6 +35,9 @@ main section{
 .dark-3{
     color: #757575;
 }
+/* .dark-5{
+    color: #D1D1D1;
+} */
 .btn{
     background-color: #FD6E0A;
     color: #FFFFFF;
@@ -146,4 +149,69 @@ nav ul li a{
     font-size: 16px;
     margin: 20px 0px 20px 0px;
     color: #757575;
+}
+/* Resume Section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-container hr{
+    margin: 30px 0px 30px 0px;
+    color: #D1D1D1;
+}
+.resume-title{
+    margin-bottom: 110px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+}
+.btn-download{
+    text-align: center;
+    margin: 30px;
+}
+/* footer */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+.footer-title{
+    margin-bottom: 20px;
+}
+.footer-description{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-icon{
+    display: flex;
+    gap: 30px;
 }
